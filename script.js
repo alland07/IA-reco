@@ -1,5 +1,5 @@
 let message = document.querySelector('#message');
-let reponse = document.querySelector('#réponse');
+let reponse = document.querySelector('#reponse');
 
 let SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
 let SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
@@ -38,8 +38,6 @@ if(command == 'choisis Alan'){
 } else if (command == 'sélectionne Noah'){
     document.querySelector('#chkNoa').checked = false;
 } 
-
-  
 }
 
 recognition.onspeechend = function() {
@@ -52,5 +50,4 @@ recognition.onerror = function(event) {
 
 document.querySelector('#btnGiveCommand').addEventListener('click', function(){
     recognition.start();
-
 });

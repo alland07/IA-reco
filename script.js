@@ -1,8 +1,15 @@
 let message = document.querySelector('#message');
+
+let reponse = document.querySelector('#réponse');
+
+var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
+
 let reponse = document.querySelector('#reponse');
 
 let SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
 let SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
+
 
 let grammar = '#JSGF V1.0;'
 
@@ -50,4 +57,5 @@ recognition.onerror = function(event) {
 
 document.querySelector('#btnGiveCommand').addEventListener('click', function(){
     recognition.start();
+
 });

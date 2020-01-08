@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+.textCenter{
+    margin-left: 38%;
+    font-size: 40px;
+}
+.rules{
+    width: 45vw;
+    height: 80vh;
+    border: 1px solid #000;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+.answer{
+    width: 45vw;
+    height: 80vh;
+    border: 1px solid #000;
+    float: right;
+    margin-left: 3%;
+}

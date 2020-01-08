@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -21,4 +22,14 @@
     border: 1px solid #000;
     float: right;
     margin-left: 3%;
+=======
+#btnGiveCommand {
+    border-radius: 100%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+img {
+    height: 50px;
+>>>>>>> a22a1c9c4a1ffa3e42e94b3bba0dcb525c7b5970
 }

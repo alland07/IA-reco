@@ -1,4 +1,5 @@
 # IA-reco
 Recognition using JavaScript
 
-Il faut juste lancer l'index.html et s'assurer que l'on peut utiliser le micro.
+Just use the index.html and verify that you can use your microphone.
+

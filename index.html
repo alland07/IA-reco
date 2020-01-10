@@ -4,35 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c2c9ca38b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Reconnaissance Vocale Yves</title>
 </head>
 <body>
 
-    <h1 class="textCenter"> Bienvenue sur l'Assistant Vocal Yves</h1>
+    <h1> Bienvenue sur l'Assistant Vocal Yves</h1>
+    <div class="container">
+        <div class="rules">
+            <h2>Demandez-moi ... </h2>
+            <p style="font-style: italic;">
+                Qui es-tu?<br>
+                Où se trouve la salle 359 ? 106? 312? 360? 306? <br> 
+                Comment avoir des informations sur l'axe Jeux Vidéos ? <br> 
+                Où sont les amphis? <br>
+                Les informations du pôle Yves!<br>
+                Quels sont les événements proposés par le pôle?<br>
+                Le code<br>
+                Où se trouve le bureau de Virak?<br> . . . </p>
+            <p style="font-weight: 500;">Avant d'appuyer sur le micro, soyez-sur de la façon dont vous devez posez votre question (voir ci-dessus si ce n'est pas le cas). </p><br>   
+        </div>
 
-    <div class="rules">
-        <h2>Règles d'utilisation de Yves</h2>
-        <p>Avant d'appuyer sur ce bouton, soyez-sur de la façon dont vous devez posez votre question (voir ci-dessus si ce n'est pas le cas). </p><br>
+        <!--<input id='chkAllan' type="checkbox"> Allan
+        <br>
+        <input id='chkEidan' type="checkbox"> Eidan
+        <br>
+        <input id='chkElise' type="checkbox"> Elise
+        <br>
+        <input id='chkNoa' type="checkbox"> Noa
+        <br>-->
 
+        <div class="answer">
+            <h2>Réponse</h2>
+            <p id="message"></p>
+            <p id="reponse" style="font-weight: 500;"></p>
+        </div>
     </div>
-    
-    <input id='chkAllan' type="checkbox"> Allan
-    <br>
-    <input id='chkEidan' type="checkbox"> Eidan
-    <br>
-    <input id='chkElise' type="checkbox"> Elise
-    <br>
-    <input id='chkNoa' type="checkbox"> Noa
-    <br>
 
-    <div class="answer">
-    <h2>Réponse :</h2>
-    <p id=message></p>
-    </div>
-    
-    <button id='btnGiveCommand'><img src="img/microphone.png" alt="micro"></button>
-    
-    
+    <button id='btnGiveCommand' class="btn" >
+        <i class="fas fa-microphone-alt fa-5x"></i>
+    </button>
+
+    <!-- script -->
     <script src="script.js"></script>
 </body>

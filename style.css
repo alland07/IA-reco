@@ -1,32 +1,52 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 15px;
     text-align: justify;
+    font-family: Avenir, Helvetica, sans-serif;
+    background-color: #e2caad;
 }
-.textCenter{
-    margin-left: 38%;
+
+h1 {
+    text-align: center;
     font-size: 40px;
 }
-.rules{
-    width: 45vw;
-    height: 80vh;
+
+/**/
+.container {
+    height: 370px;
+    padding: 20px;
+    margin: auto 100px;
+}
+
+.rules {
+    width: 30vw;
+    height: 450px;
     border: 1px solid #000;
-    margin-left: 2%;
-    margin-right: 2%;
     float: left;
 }
-.answer{
-    width: 45vw;
-    height: 80vh;
+
+.answer {
+    width: 30vw;
+    height: 450px;
     border: 1px solid #000;
     float: right;
-    margin-left: 3%;
 }
-#btnGiveCommand {
+
+/* bouton */
+
+.btn {
+    padding: 0;
+    text-align: justify;
     border-radius: 100%;
     border: 2px solid black;
-    padding: 10px;
+    padding: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 0.5rem;
 }
-img {
-    height: 50px;
+
+.btn:focus {
+    border: 3px solid red;
 }

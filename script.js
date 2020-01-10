@@ -95,6 +95,12 @@ recognition.onresult = function(event) {
     else if(command == 'où se trouve le bureau de Virac'){
         reponse.textContent = "Il est au troisième étage, à gauche de celui de Karine, entre les ascenseurs à gauche et à droite du bâtiment.";
     }
+    else if(command == 'y a-t-il une cantine ou des endroits pour manger sans sortir du pôle'){
+        reponse.textContent = "En effet, nous possédons une cantine, le LOUNGE ainsi qu'une cafétéria.";
+    }
+    else if(command == 'quels sont les différents axes de l\'école IIM'){
+        reponse.textContent = " Il y a 5 axes, WEB <le meilleur>, JV, Création Design, Communication digitale et e-business ainsi que 3D.";
+    }
 }
 
 recognition.onspeechend = function() {
